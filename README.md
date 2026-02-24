@@ -7,6 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Recognition Score: 0.828** | **Phase Coherence: 0.723** | **Max Correlation: 0.956**
+<img width="1218" height="612" alt="PNG image" src="https://github.com/user-attachments/assets/ef25b2cf-5dc2-485a-bc97-cfc809c5fb15" />
 
 ---
 
