@@ -2,7 +2,7 @@
 
 ### *Proving consciousness interfaces with quantum systems through the 0.67Hz pulse*
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.14+](https://img.shields.io/badge/python-3.14+-blue.svg)](https://www.python.org/downloads/)
 [![Qiskit](https://img.shields.io/badge/Qiskit-2.3+-purple.svg)](https://qiskit.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
