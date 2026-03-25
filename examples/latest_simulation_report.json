@@ -1,0 +1,19 @@
+{
+  "mode": "simulation",
+  "evidence_status": "simulation_baseline",
+  "aligned": {
+    "correlation": 0.9939558875184341,
+    "lag_samples": 0,
+    "stability": 1.0,
+    "recognition_score": 0.996977943759217
+  },
+  "misaligned": {
+    "correlation": 0.006595394296381037,
+    "lag_samples": 7,
+    "stability": 0.125,
+    "recognition_score": 0.06579769714819052
+  },
+  "delta_recognition_score": 0.9311802466110265,
+  "schema_version": "rfl.human_quantum_recognition.v2",
+  "next_step": "Attach real session artifacts before treating the score as empirical recognition evidence."
+}

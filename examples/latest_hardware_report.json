@@ -1,0 +1,29 @@
+{
+  "mode": "hardware-derived",
+  "evidence_status": "hardware_derived_model",
+  "noise_summary": {
+    "mean_coherence_proxy": 0.00075,
+    "min_coherence_proxy": 0.0,
+    "max_coherence_proxy": 0.9,
+    "drift_span_ghz": 0.023593074013841253,
+    "depolarization_events": 14,
+    "readout_flip_events": 23,
+    "leakage_events": 10,
+    "neighbor_bleed_events": 89
+  },
+  "aligned": {
+    "correlation": 0.00201259456877899,
+    "lag_samples": 755,
+    "stability": 0.0013227513227513227,
+    "recognition_score": 0.0016676729457651563
+  },
+  "misaligned": {
+    "correlation": 0.006595394296381037,
+    "lag_samples": 7,
+    "stability": 0.125,
+    "recognition_score": 0.06579769714819052
+  },
+  "delta_recognition_score": -0.06413002420242536,
+  "schema_version": "rfl.human_quantum_recognition.v2",
+  "next_step": "Attach real session artifacts before treating the score as empirical recognition evidence."
+}

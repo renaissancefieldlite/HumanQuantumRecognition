@@ -1,0 +1,43 @@
+{
+  "provider": "generic_hardware_snapshot",
+  "backend_name": "example_device",
+  "qubits": [
+    {
+      "id": 0,
+      "t1_us": 135.2,
+      "t2_us": 82.1,
+      "readout_error": 0.021,
+      "single_qubit_gate_error": 0.0011,
+      "frequency_ghz": 4.97,
+      "anharmonicity_ghz": -0.23
+    },
+    {
+      "id": 1,
+      "t1_us": 118.7,
+      "t2_us": 76.4,
+      "readout_error": 0.028,
+      "single_qubit_gate_error": 0.0014,
+      "frequency_ghz": 5.08,
+      "anharmonicity_ghz": -0.21
+    },
+    {
+      "id": 2,
+      "t1_us": 141.5,
+      "t2_us": 91.0,
+      "readout_error": 0.019,
+      "single_qubit_gate_error": 0.0009,
+      "frequency_ghz": 5.14,
+      "anharmonicity_ghz": -0.24
+    }
+  ],
+  "couplers": [
+    {
+      "pair": [0, 1],
+      "cross_talk": 0.012
+    },
+    {
+      "pair": [1, 2],
+      "cross_talk": 0.017
+    }
+  ]
+}
