@@ -1,6 +1,7 @@
 {
   "mode": "hardware-derived",
   "evidence_status": "hardware_derived_model",
+  "claim_under_test": "Whether the recognition score still separates aligned versus misaligned interaction-like controls when one trace is replaced by a calibration-anchored coherence proxy.",
   "noise_summary": {
     "mean_coherence_proxy": 0.00075,
     "min_coherence_proxy": 0.0,
@@ -12,18 +13,18 @@
     "neighbor_bleed_events": 89
   },
   "aligned": {
-    "correlation": 0.00201259456877899,
-    "lag_samples": 755,
-    "stability": 0.0013227513227513227,
-    "recognition_score": 0.0016676729457651563
+    "correlation": 0.9960639357454361,
+    "lag_samples": 0,
+    "stability": 1.0,
+    "recognition_score": 0.9980319678727181
   },
   "misaligned": {
-    "correlation": 0.006595394296381037,
-    "lag_samples": 7,
-    "stability": 0.125,
-    "recognition_score": 0.06579769714819052
+    "correlation": -0.002774443841105073,
+    "lag_samples": -300,
+    "stability": 0.0033222591362126247,
+    "recognition_score": 0.0002739076475537759
   },
-  "delta_recognition_score": -0.06413002420242536,
-  "schema_version": "rfl.human_quantum_recognition.v2",
-  "next_step": "Attach real session artifacts before treating the score as empirical recognition evidence."
+  "delta_recognition_score": 0.9977580602251643,
+  "schema_version": "rfl.human_quantum_recognition.v3",
+  "next_step": "Attach real backend session artifacts before treating the score as empirical recognition evidence."
 }

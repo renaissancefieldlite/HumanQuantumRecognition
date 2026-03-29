@@ -14,6 +14,6 @@
     "recognition_score": 0.06579769714819052
   },
   "delta_recognition_score": 0.9311802466110265,
-  "schema_version": "rfl.human_quantum_recognition.v2",
-  "next_step": "Attach real session artifacts before treating the score as empirical recognition evidence."
+  "schema_version": "rfl.human_quantum_recognition.v3",
+  "next_step": "Attach real backend session artifacts before treating the score as empirical recognition evidence."
 }

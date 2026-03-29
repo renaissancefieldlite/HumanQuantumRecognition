@@ -1,0 +1,161 @@
+{
+  "mode": "backend-capture",
+  "evidence_status": "real_backend_session_synthetic_control",
+  "claim_under_test": "Whether the recognition score still separates aligned versus misaligned interaction-like controls when the device-side trace is built from actual FEZ backend captures rather than simulation or a calibration-only proxy.",
+  "provider": "ibm",
+  "backend_name": "ibm_fez",
+  "capture_count": 8,
+  "sample_rate_hz": 0.8828197970573851,
+  "sample_rate_source": "capture_timestamp_spacing",
+  "derived_spacing_seconds": 1.132734,
+  "actual_spacing_summary": {
+    "mean_seconds": 1.1386357142857142,
+    "median_seconds": 1.132734,
+    "min_seconds": 1.103945,
+    "max_seconds": 1.226932
+  },
+  "trace_summary": {
+    "mean_target_subspace_probability": 0.984375,
+    "std_target_subspace_probability": 0.02209708691207961,
+    "mean_off_target_probability": 0.015625,
+    "mean_bell_imbalance": 0.0859375
+  },
+  "manifest_context": {
+    "label": "window_sweep_fixed500_acct2_1490ms",
+    "condition": "selection_window_sweep",
+    "session_mode": "timed_window_async",
+    "session_reference": "architect_d_window_sweep_fixed500_account2",
+    "selection_window_seconds": 1.49,
+    "submit_spacing_seconds": 0.5,
+    "completed_repeats": 8
+  },
+  "aligned": {
+    "correlation": 0.9985139091841557,
+    "lag_samples": 0,
+    "stability": 1.0,
+    "recognition_score": 0.9992569545920779
+  },
+  "misaligned": {
+    "correlation": -0.028994556970219045,
+    "lag_samples": -2,
+    "stability": 0.3333333333333333,
+    "recognition_score": 0.15216938818155715
+  },
+  "delta_recognition_score": 0.8470875664105207,
+  "captures": [
+    {
+      "path": "/Users/renaissancefieldlite1.0/Documents/Playground/renaissancefieldlitehrv1.0/data/raw/ibmq_ibm_fez_1490ms_1774802968580431000.json",
+      "provider": "ibm",
+      "backend_name": "ibm_fez",
+      "submitted_at_utc": "2026-03-29T14:22:04.386474+00:00",
+      "created_at_utc": "2026-03-29T16:49:28.580422+00:00",
+      "job_id": "d74jb323qcgc73fqles0",
+      "shots": 32,
+      "zero_probability": 0.5,
+      "three_probability": 0.46875,
+      "target_subspace_probability": 0.96875,
+      "off_target_probability": 0.03125,
+      "bell_imbalance": 0.03125
+    },
+    {
+      "path": "/Users/renaissancefieldlite1.0/Documents/Playground/renaissancefieldlitehrv1.0/data/raw/ibmq_ibm_fez_1490ms_1774802978046867000.json",
+      "provider": "ibm",
+      "backend_name": "ibm_fez",
+      "submitted_at_utc": "2026-03-29T14:22:05.505202+00:00",
+      "created_at_utc": "2026-03-29T16:49:38.046844+00:00",
+      "job_id": "d74jb3i3qcgc73fqlet0",
+      "shots": 32,
+      "zero_probability": 0.4375,
+      "three_probability": 0.5625,
+      "target_subspace_probability": 1.0,
+      "off_target_probability": 0.0,
+      "bell_imbalance": 0.125
+    },
+    {
+      "path": "/Users/renaissancefieldlite1.0/Documents/Playground/renaissancefieldlitehrv1.0/data/raw/ibmq_ibm_fez_1490ms_1774802980385318000.json",
+      "provider": "ibm",
+      "backend_name": "ibm_fez",
+      "submitted_at_utc": "2026-03-29T14:22:06.644024+00:00",
+      "created_at_utc": "2026-03-29T16:49:40.385300+00:00",
+      "job_id": "d74jb3tkoquc73e2r7eg",
+      "shots": 32,
+      "zero_probability": 0.375,
+      "three_probability": 0.625,
+      "target_subspace_probability": 1.0,
+      "off_target_probability": 0.0,
+      "bell_imbalance": 0.25
+    },
+    {
+      "path": "/Users/renaissancefieldlite1.0/Documents/Playground/renaissancefieldlitehrv1.0/data/raw/ibmq_ibm_fez_1490ms_1774803117908955000.json",
+      "provider": "ibm",
+      "backend_name": "ibm_fez",
+      "submitted_at_utc": "2026-03-29T14:22:07.780892+00:00",
+      "created_at_utc": "2026-03-29T16:51:57.908897+00:00",
+      "job_id": "d74jb40qhmps73b46dq0",
+      "shots": 32,
+      "zero_probability": 0.46875,
+      "three_probability": 0.5,
+      "target_subspace_probability": 0.96875,
+      "off_target_probability": 0.03125,
+      "bell_imbalance": 0.03125
+    },
+    {
+      "path": "/Users/renaissancefieldlite1.0/Documents/Playground/renaissancefieldlitehrv1.0/data/raw/ibmq_ibm_fez_1490ms_1774803124282719000.json",
+      "provider": "ibm",
+      "backend_name": "ibm_fez",
+      "submitted_at_utc": "2026-03-29T14:22:08.884837+00:00",
+      "created_at_utc": "2026-03-29T16:52:04.282704+00:00",
+      "job_id": "d74jb48qhmps73b46drg",
+      "shots": 32,
+      "zero_probability": 0.4375,
+      "three_probability": 0.5625,
+      "target_subspace_probability": 1.0,
+      "off_target_probability": 0.0,
+      "bell_imbalance": 0.125
+    },
+    {
+      "path": "/Users/renaissancefieldlite1.0/Documents/Playground/renaissancefieldlitehrv1.0/data/raw/ibmq_ibm_fez_1490ms_1774803129599134000.json",
+      "provider": "ibm",
+      "backend_name": "ibm_fez",
+      "submitted_at_utc": "2026-03-29T14:22:10.111769+00:00",
+      "created_at_utc": "2026-03-29T16:52:09.599112+00:00",
+      "job_id": "d74jb4gqhmps73b46dsg",
+      "shots": 32,
+      "zero_probability": 0.4375,
+      "three_probability": 0.5,
+      "target_subspace_probability": 0.9375,
+      "off_target_probability": 0.0625,
+      "bell_imbalance": 0.0625
+    },
+    {
+      "path": "/Users/renaissancefieldlite1.0/Documents/Playground/renaissancefieldlitehrv1.0/data/raw/ibmq_ibm_fez_1490ms_1774803130064286000.json",
+      "provider": "ibm",
+      "backend_name": "ibm_fez",
+      "submitted_at_utc": "2026-03-29T14:22:11.244503+00:00",
+      "created_at_utc": "2026-03-29T16:52:10.064264+00:00",
+      "job_id": "d74jb4p8qmgc73fm4p50",
+      "shots": 32,
+      "zero_probability": 0.5,
+      "three_probability": 0.5,
+      "target_subspace_probability": 1.0,
+      "off_target_probability": 0.0,
+      "bell_imbalance": 0.0
+    },
+    {
+      "path": "/Users/renaissancefieldlite1.0/Documents/Playground/renaissancefieldlitehrv1.0/data/raw/ibmq_ibm_fez_1490ms_1774803136861546000.json",
+      "provider": "ibm",
+      "backend_name": "ibm_fez",
+      "submitted_at_utc": "2026-03-29T14:22:12.356924+00:00",
+      "created_at_utc": "2026-03-29T16:52:16.861403+00:00",
+      "job_id": "d74jb50qhmps73b46dtg",
+      "shots": 32,
+      "zero_probability": 0.53125,
+      "three_probability": 0.46875,
+      "target_subspace_probability": 1.0,
+      "off_target_probability": 0.0,
+      "bell_imbalance": 0.0625
+    }
+  ],
+  "schema_version": "rfl.human_quantum_recognition.v3",
+  "next_step": "Replace synthetic recognition controls with timestamped human-session traces aligned to the same FEZ session."
+}

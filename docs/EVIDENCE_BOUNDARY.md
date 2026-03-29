@@ -2,4 +2,5 @@
 
 - simulation baseline: present
 - hardware-derived model: present
-- real session evidence: pending
+- backend-fed session trace with synthetic recognition controls: present
+- real human session evidence: pending

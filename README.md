@@ -16,14 +16,24 @@ claim.
   relationships
 - `hardware_derived_model`: the same scoring logic applied to a
   calibration-anchored coherence proxy
-- `real_session_validation`: pending
+- `real_backend_session_synthetic_control`: the device-side trace is built from
+  actual FEZ backend captures and scored against aligned versus shifted
+  interaction-like controls
+- `real_human_session_validation`: pending
 
 ## Quick Start
 
 ```bash
 python3 'MUTUAL_ RECOGNITION _LOOP.py' --mode simulation --json
 python3 'MUTUAL_ RECOGNITION _LOOP.py' --mode hardware-derived --json
+python3 'MUTUAL_ RECOGNITION _LOOP.py' \
+  --mode backend-capture \
+  --captures '/Users/renaissancefieldlite1.0/Documents/Playground/renaissancefieldlitehrv1.0/data/batches/ibm_ibm_fez_window_sweep_fixed500_acct2_1490ms_1774794095.json' \
+  --json
 ```
 
 See [docs/METHOD.md](docs/METHOD.md) and
-[docs/EVIDENCE_BOUNDARY.md](docs/EVIDENCE_BOUNDARY.md).
+[docs/EVIDENCE_BOUNDARY.md](docs/EVIDENCE_BOUNDARY.md). For the current
+retool framing, see [docs/RETOOL_DIRECTION.md](docs/RETOOL_DIRECTION.md). For
+proposal-facing significance, see
+[docs/PROPOSAL_RELEVANCE.md](docs/PROPOSAL_RELEVANCE.md).
