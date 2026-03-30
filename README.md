@@ -1,4 +1,4 @@
-# HumanQuantumRecognition
+# Experiment 3: HumanQuantumRecognition
 
 Interaction-coupling experiment for the `0.67 Hz` stack.
 
